@@ -19,7 +19,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.provider "virtualbox" do |vb|
     vb.name = "Symfony 4 Vagrant Box"
-    vb.memory = "1024"
+    vb.memory = "2048"
   end
 
 end
